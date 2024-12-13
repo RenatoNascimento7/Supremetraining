@@ -13,7 +13,7 @@ Guia definitivo para treino de costas e bíceps
 
    - Guilherme Silva de Lima;
    - Renato Ferreira do Nascimento;
-   - Thobias  Oliveira.
+   - Thobias Henrique de Maria Oliveira.
 
 ## Finalidade
 
