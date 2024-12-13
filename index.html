@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupremeTraning</title>
+
+    <link rel="stylesheet" href="estilo.css">
+<h1>Bem Vindo a SupremeTraning</h1>
+</head>
+<body>
+    <header>
+        <div>
+            <h2>SUPREMETRAINING</h2>
+            <a href="server.php">Seus Dados Cadastrados</a>
+        <a href="desenvolvedores.html">Desenvolvedores</a>
+        </div>
+    </header>
+    <form action="server.php" method="post">
+        <div class="grupo">
+            <label for="username">E-mail:</label>
+            <input type="email" id="username" class="controle" name="login">
+        </div>
+        <div class="grupo">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" class="controle" name="senha">
+        </div>
+        <div class="grupo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" >
+        </div>
+        <div>
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento" class="controle" name="nascimento">
+        </div>
+        <div>
+            <label for="celular">Numero do Celular:</label>
+            <input type="tel" id="celular" class="controle" name="celular">
+        </div>
+        <div>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" class="controle" name="cpf">
+        </div>
+        <div>
+            <label for="numero">Endereço(N°):</label>
+            <input type="number" id="numero" class="controle" name="numero">
+        </div>
+        <div>
+            <label for="meses">Há quantos meses vc treina?:</label>
+            <input type="month" id="meses" class="controle" name="mese">
+        </div>
+        <div>
+            <p>Escolha o musculo que vc quer treinar:</p>
+            <label><input type="checkbox" name="musculo" value="Costas"> Costas</label><br>
+            <label><input type="checkbox" name="musculo" value="Biceps"> Bíceps</label><br>
+            <label><input type="checkbox" name="musculo" value="Peito"> Peito</label><br>
+            <label><input type="checkbox" name="musculo" value="Triceps"> Tríceps</label><br>
+        </div>
+        <div>
+            <input type="submit" value="Logar" class="btn">
+        </div>
+        <div>
+            <input type="reset" value="Resetar" class="rst">
+        </div>
+    </form>
+    <footer>
+        <p>IFRN campus Santa Cruz</p>
+        <p>Trabalho de Autoria Web</p>
+        <p>Prof. Marcelo Figueiredo Barbosa Júnior.</p>
+        <ul>Alunos:
+            <li>Guilherme Silva</li>
+            <li>Renato Ferreira</li>
+            <li>Thobias Henrique</li>
+        </ul>
+    </footer>
+    <script src="mascara.js"></script>
+
+</body>
+</html>
